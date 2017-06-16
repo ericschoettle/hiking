@@ -1,0 +1,7 @@
+<p>
+  home works!
+</p>
+
+<div *ngFor="let user of users | async">
+  <app-user-list [user]="user"></app-user-list>
+</div>
